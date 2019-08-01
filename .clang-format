@@ -1,0 +1,9 @@
+# .clang-format for the JTC project
+BasedOnStyle: Google
+Language: Cpp
+ColumnLimit: 128
+AllowShortFunctionsOnASingleLine: true
+SpaceBeforeParens: ControlStatements
+AlignAfterOpenBracket: Align
+# There is no right option for this, so formatting is done manually
+AlwaysBreakTemplateDeclarations: false
